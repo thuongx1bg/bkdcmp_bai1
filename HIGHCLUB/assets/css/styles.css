@@ -1,0 +1,81 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:  13px;
+    width: 100%;
+    margin: 0px auto;
+}
+#header{
+    background-color: orange;
+    height: 60px;
+   
+}
+#header ul {
+    margin: 0px;
+    padding: 0px;
+}
+#header ul li {
+    list-style: none;
+    float: left;
+}
+#header ul li a {
+    text-decoration: none;
+    margin: 0px auto;
+    color:#fff;
+    line-height: 60px;
+    padding: 0 30px;
+    display: block;
+
+}
+#header ul li a:hover{
+    color:#000;
+    background: #fff;
+}
+#header ul li a.active {
+    background-color: #19b593;
+}
+#logo{
+    float: left;
+    display: block;
+    width: 20%;
+    height: 55px;
+}
+.ao li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 30px;
+}
+.quan li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 15px;
+}
+.ao li a,.quan li a{
+    text-decoration: none;
+}
+.quan{
+    display: block;
+}
+.ao{
+    display: block;
+
+}
+.quan ul li img{
+    height: 160px;px; 
+    width:200px;
+}
+.ao ul li img{
+    height: 160px;
+    width:200px;
+}
+
+#footer form a{
+    text-decoration: none;
+   font-size: 250%;
+}
+#footer form .ipmail{
+    width: 40%;
+    height: 30px;
+}
+
+
+
